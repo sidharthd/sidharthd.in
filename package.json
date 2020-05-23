@@ -57,12 +57,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "tsc --noEmit && lint-staged"
     }
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --cache --fix",
-    "*.{ts,tsx}": "tsc --noEmit && eslint --cache --fix",
+    "*.{js,ts,tsx}": "eslint --cache --fix",
     "*.{json,md}": "prettier --write"
   }
 }
