@@ -47,3 +47,23 @@ header a {
   background: rgba(255, 0, 143, 0.05);
   color: #ff008f;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-avatar {
+  width: 300px;
+}
+
+.hero-text {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.hero-designation {
+  color: #4d4d4d;
+}
