@@ -28,7 +28,7 @@ const Layout: React.FC = ({ children }) => {
           <>
             <main>{children}</main>
             <footer>
-              © {new Date().getFullYear()} Sidharth D, Built with
+              © {new Date().getFullYear()} Sidharth D, built with
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
             </footer>
