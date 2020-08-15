@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-
 import Layout from '../components/layout';
 import Avatar from '../components/avatar';
 import Activity from '../components/activity';
@@ -22,7 +20,6 @@ const IndexPage = () => (
       <Activity icon={right} label="Occassional cycling" />
       <Activity icon={bulb} label="Ideological pondering" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
 
