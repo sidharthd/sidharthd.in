@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Avatar from '../components/avatar';
 import Activity from '../components/activity';
+import About from '../components/about';
 import SEO from '../components/seo';
 import { code, camera, right, bulb } from '../icons';
 
@@ -20,6 +21,7 @@ const IndexPage = () => (
       <Activity icon={right} label="Occassional cycling" />
       <Activity icon={bulb} label="Ideological pondering" />
     </div>
+    <About />
   </Layout>
 );
 
