@@ -4,6 +4,7 @@ import Avatar from '../components/avatar';
 import Activity from '../components/activity';
 import About from '../components/about';
 import Help from '../components/help';
+import Tech from '../components/tech';
 import SEO from '../components/seo';
 import { code, camera, right, bulb } from '../icons';
 
@@ -24,6 +25,7 @@ const IndexPage = () => (
     </div>
     <About />
     <Help />
+    <Tech />
   </Layout>
 );
 
