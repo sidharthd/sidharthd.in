@@ -5,6 +5,7 @@ import Activity from '../components/activity';
 import About from '../components/about';
 import Help from '../components/help';
 import Tech from '../components/tech';
+import Form from '../components/form';
 import SEO from '../components/seo';
 import { code, camera, right, bulb } from '../icons';
 
@@ -26,6 +27,7 @@ const IndexPage = () => (
     <About />
     <Help />
     <Tech />
+    <Form />
   </Layout>
 );
 
