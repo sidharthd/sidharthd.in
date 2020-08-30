@@ -36,7 +36,7 @@ const Form: React.FC = () => {
   };
 
   return (
-    <>
+    <section>
       <h2>Contact me</h2>
       <form onSubmit={handleSubmit}>
         <Space>
@@ -81,7 +81,7 @@ const Form: React.FC = () => {
           </button>
         </Space>
       </form>
-    </>
+    </section>
   );
 };
 

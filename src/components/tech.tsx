@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Tech: React.FC = () => (
-  <>
+  <section>
     <h2>Tech stack</h2>
     <h4>Front-end</h4>
     <ul>
@@ -24,7 +24,7 @@ const Tech: React.FC = () => (
       <li>AWS</li>
       <li>DigitalOcean</li>
     </ul>
-  </>
+  </section>
 );
 
 export default Tech;

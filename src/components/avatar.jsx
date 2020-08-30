@@ -28,7 +28,7 @@ const Image = () => {
 
   return (
     <Img
-      className="hero-avatar"
+      className="avatar"
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
   );
